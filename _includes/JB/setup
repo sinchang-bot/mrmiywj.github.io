@@ -20,4 +20,7 @@
       {% capture ASSET_PATH %}{{ BASE_PATH }}/assets/themes/{{ site.JB.THEME }}{% endcapture %}
     {% endif %}  
   {% endif %}
+
+  {% capture IMAGE_PATH %}{{ BASE_PATH }}/images{% endcapture %}
+
 {% endcapture %}{% assign jbcache = nil %}
