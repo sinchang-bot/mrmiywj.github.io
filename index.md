@@ -25,7 +25,7 @@ Twitter: [@jsyangwenjie](https://twitter.com/jsyangwenjie)
 
 Zhihu: [@Ivan Yang](https://www.zhihu.com/people/ivanyang-36-58)
 
-You can find my resume [here](). (Under construction)
+You can find my resume [here]({{BASE_PATH}}/resume.pdf).
 
 > Recent Post:
 
