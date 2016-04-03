@@ -21,5 +21,8 @@ Here is my personal wiki page.
 
 - [Introduction to Category theory in Scala](https://hseeberger.wordpress.com/2010/11/25/introduction-to-category-theory-in-scala/) Easy eassy.
 
+- [A shapeless primer](http://rnduja.github.io/2016/01/19/a_shapeless_primer/) a
+very good introduction to shapeless.
+
 # Misc
 - [Hacker News](http://hn.premii.com/) Clean theme.
