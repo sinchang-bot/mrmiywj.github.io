@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Misc
+category: misc
 title: 面试的一点感想
 comments: true
 tags: Misc
