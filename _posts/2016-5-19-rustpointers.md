@@ -1,0 +1,26 @@
+---
+layout: post
+category: Rust
+title: Various guarantees in Rust
+comments: true
+tags: Rust
+---
+
+Since I promised [@arrowrowe](http://arrowrowe.me/) to write a series of posts about introduction Rust to Chinese university students, though I'm busy with finals and TOEFL, I still planned to write some posts about my learning experience of Rust language.
+
+When I was a new comer to Rust, everything was easy for me to understand except so many guarantees in Rust, like `Rc`, `Cell` and so on. I do believe these notions are not easy to handle for the guys from either C-like languages like C/C++, Java, Python or functional languages. I hope this post will help you organize all these notions.
+
+# Ownership, reference and borrowing
+
+This is easy to understand. Since Rust have the property called [Variable bindings](https://doc.rust-lang.org/book/variable-bindings.html), variables have the `Ownership` of what they are bound to. Then, you are allowed to give the ownership out to other variables or pass it as an argument. Besides, the ownership can also be borrowed out. If you follow the rules Rust provided, congrats! Your code will be safe due to the guarantees of Rust compiler. The borrow checker will help you handle all the things!
+
+{% highlight rust %}
+fn f(x: &mut usize) {
+    *x = 2
+}
+fn main() {
+    let mut x = 1;
+    f(&mut x);
+    println!("{}", x);
+}
+{% endhighlight %}
