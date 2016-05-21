@@ -24,3 +24,38 @@ fn main() {
     println!("{}", x);
 }
 {% endhighlight %}
+
+# Box
+
+Since `Box` is easy to understand, which is just allocating memory chunks on heap, it still stunned me when I fisrt met it. Why `Box` here?
+
+In short, when you want to call a `new` in C++, you should try to use `Box` here.
+
+More precisely, `Box` is useful in recursive data structs. IMP, `Box` is needed since Rust language wants to have the same powerful expreesion with functional languages like Scala and OCaml as well as the same memory control ability with C/C++.
+
+Let's recall how to write a linked list in Haskell and C++.
+
+{% highlight haskell %}
+data MyList a = Cons a (MyList a)
+              | MyNil deriving (Show, Eq)
+{% endhighlight %}
+
+{% highlight C++ %}
+class List {
+    int data;
+    List* next;
+}
+{% endhighlight %}
+
+Take a look at the difference between them. Since Haskell compiler helps us manage the memory, we do not need to point out that the next list is actually a pointer to a memory chunk. But it's different in C++. Rust combines these two.
+
+{% highlight rust %}
+pub enum List {
+    Emtpy,
+    Elem(isize, Box<List>),
+}
+{% endhighlight %}
+
+So remember, `Box` is only needed in recursive data structs!
+
+> To be continued
