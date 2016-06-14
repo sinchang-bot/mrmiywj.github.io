@@ -58,4 +58,11 @@ pub enum List {
 
 So remember, `Box` is only needed in recursive data structs!
 
+# Cell
+
+Now consider another question, when you want to construct a binary tree structure. A little more, you want your nodes has a pointer to its parents. Here comes a issue, actually you cannot hold a pointer in a struct in Rust! No such pointer!
+
+So we need `Rc`, which means `Reference Counting`. `Reference Counting` is a garbage collection algorithm. It will maintain a counter in this variable, recording the number of pointers pointing to this value. Let's see how to 
+
+
 > To be continued

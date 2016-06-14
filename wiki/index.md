@@ -24,5 +24,10 @@ Here is my personal wiki page.
 - [A shapeless primer](http://rnduja.github.io/2016/01/19/a_shapeless_primer/) a
 very good introduction to shapeless.
 
+# Programming Language
+
+## Type System
+- [Propositions as types](http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf)
+
 # Misc
 - [Hacker News](http://hn.premii.com/) Clean theme.

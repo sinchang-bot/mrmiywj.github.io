@@ -44,7 +44,7 @@ implicit val optionShow[A](implicit sa: Show[A]) = new Show[Option[A]]{
   def show(oa: Option[A]) = a match{
     case None => "None"
     case Some(a) => "Some(" + sa.show(a) + ")"
-  }
+ e }
 }
 {% endhighlight %}
 
