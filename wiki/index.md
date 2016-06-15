@@ -24,6 +24,9 @@ Here is my personal wiki page.
 - [A shapeless primer](http://rnduja.github.io/2016/01/19/a_shapeless_primer/) a
 very good introduction to shapeless.
 
+## Rust
+- [Lambda crabs (part 1): A mathematical introduction to lifetimes and regions](https://ticki.github.io/blog/lambda_crabs_1/)
+
 # Programming Language
 
 ## Type System
