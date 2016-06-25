@@ -58,11 +58,18 @@ pub enum List {
 
 So remember, `Box` is only needed in recursive data structs!
 
-# Cell
+# Rc
 
 Now consider another question, when you want to construct a binary tree structure. A little more, you want your nodes has a pointer to its parents. Here comes a issue, actually you cannot hold a pointer in a struct in Rust! No such pointer!
 
-So we need `Rc`, which means `Reference Counting`. `Reference Counting` is a garbage collection algorithm. It will maintain a counter in this variable, recording the number of pointers pointing to this value. Let's see how to 
+So we need `Rc`, which means `Reference Counting`. `Reference Counting` is a garbage collection algorithm. It will maintain a counter in this variable, recording the number of pointers pointing to this value. You can find some examples on [Rust docs](http://doc.rust-lang.org/std/rc/index.html).
 
+# Cell and RefCell
+
+Thanks to `Rc`, we can have objects that shared by serveral pointers. But wait, wait. The [Rust docs](http://doc.rust-lang.org/std/rc/index.html) points out the obejct in `Rc` is read only. We cannot modify it!
+
+Let's consider such situation. We have a machine which is consisted with several obejcts. Each object is an instance of a struct. In every object, there is a pointer to the machine it consists. When we an object, we cannot do some changes to its mother machine if we only have `Rc`!
+
+So here comes an issue 
 
 > To be continued
