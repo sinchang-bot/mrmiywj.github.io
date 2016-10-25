@@ -7,7 +7,8 @@ tagline: Supporting tagline
 
 Hi,
 
-I'm Ivan Yang, an undergraduate student in Shanghai Jiao Tong University(SJTU), majoring at computer science.
+I'm Ivan Yang, an undergraduate student in Shanghai Jiao Tong University(SJTU),
+    majoring in computer science.
 
 - Open source developer [@github](https://github.com/mrmiywj)
 - Rust/C/Python/Ruby/Scala/Haskell
