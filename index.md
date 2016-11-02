@@ -16,7 +16,6 @@ I'm Ivan Yang, an undergraduate student in Shanghai Jiao Tong University(SJTU),
 - Programming language theory/Distributed system/Database/Deep learning
 - Active developer in Rust community. Contributor of [Rust](https://github.com/rust-lang/rust)/[Servo](https://github.com/servo/servo)/[TiKV](https://github.com/pingcap/tikv)
 - Tabletop game lover
-- Single now
 - Prepare to apply for master programs in the U.S.
 
 You are welcome to contact me via:
