@@ -28,7 +28,7 @@ tags: Misc
 ![]({{BASE_PATH}}/images/japan/okasa/5.JPG)
 ![]({{BASE_PATH}}/images/japan/okasa/6.JPG)
 ![]({{BASE_PATH}}/images/japan/okasa/7.JPG)
-![]({{BASE_PATH}}/images/japan/okasa/8.JPG)
+![]({{BASE_PATH}}/images/japan/okasa/8.jpg)
 ![]({{BASE_PATH}}/images/japan/okasa/9.JPG)
 ![]({{BASE_PATH}}/images/japan/okasa/10.JPG)
 ![]({{BASE_PATH}}/images/japan/okasa/11.JPG)
