@@ -7,7 +7,7 @@ tagline: Supporting tagline
 
 Hi,
 
-I'm Ivan Yang, an first-year master student in Carnegie Mellon University(CMU),
+I'm Ivan Yang, a first-year master student in Carnegie Mellon University(CMU),
     majoring in computer science.
 
 - Open source developer [@github](https://github.com/mrmiywj)
@@ -15,7 +15,7 @@ I'm Ivan Yang, an first-year master student in Carnegie Mellon University(CMU),
 - `Hard-core` programming, like system programming/database/programming languages
 - Programming language theory/Distributed system/Database/Deep learning
 - Active developer in Rust community. Contributor of [Rust](https://github.com/rust-lang/rust)/[Servo](https://github.com/servo/servo)/[TiKV](https://github.com/pingcap/tikv)
-- Board/ video game lover. Nintendo rules the fxxk world.
+- Board/ video game lover. I love Nintendo.
 - Incoming Software Engineer Intern at LinkedIn.
 
 You are welcome to contact me via:
