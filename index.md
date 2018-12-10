@@ -16,7 +16,8 @@ I'm Ivan Yang, a second-year master student in Carnegie Mellon University(CMU),
 - Programming language theory/Distributed system/Database/Parallel System
 - Active developer in Rust community. Contributor of [Rust](https://github.com/rust-lang/rust)/[Servo](https://github.com/servo/servo)/[TiKV](https://github.com/pingcap/tikv)
 - Board/ video game lover. I love Nintendo.
-- Software Engineer Intern at LinkedIn in Summer 2018.
+- Software Engineer Intern at **LinkedIn** in Summer 2018.
+- I will join **Facebook** in 2019!
 
 You are welcome to contact me via:
 
